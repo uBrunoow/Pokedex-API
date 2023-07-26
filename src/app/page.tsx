@@ -24,7 +24,6 @@ export default function Home() {
 
       if (APIResponse.status === 200) {
         const data = await APIResponse.json();
-        console.log(data)
         return data;
       } else {
         return null;
